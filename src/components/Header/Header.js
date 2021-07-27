@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import Navbar from './Navbar'
 
-function Header() {
+function Header(props) {
     return (
       <>
       <div className='container-lg d-flex justify-content-around align-items-center'>
@@ -17,7 +17,7 @@ function Header() {
       <NotificationsIcon />
       </div>
       </div>
-      <Navbar/>
+      <Navbar active={props.active}/>
   
       </>
     );

@@ -3,7 +3,8 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import './Navbar.css'
 
-function Navigationbar() {
+function Navigationbar(props) {
+  console.log(props.active)
   return (
       <>
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" className='px-3'>
@@ -14,13 +15,13 @@ function Navigationbar() {
   </div>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="d-flex justify-content-around w-100 nav-options">
-      <Nav.Link style={{color:'white'}} href="#features">Home</Nav.Link>
-      <Nav.Link style={{color:'white'}} href="#features">About AKGEC</Nav.Link>
-      <Nav.Link style={{color:'white'}} href="#features">Call for Paper</Nav.Link>
-      <Nav.Link style={{color:'white'}} href="#features">COMMITTEE</Nav.Link>
-      <Nav.Link style={{color:'white'}} href="#features">Keynote Speakers</Nav.Link>
-      <Nav.Link style={{color:'white'}} href="#features">Registration Fee</Nav.Link>
-      <Nav.Link style={{color:'white'}} href="#features">Best Paper Award</Nav.Link>
+      <Nav.Link className={props.active==='home'?'active':'inactive'} href="#features">Home</Nav.Link>
+      <Nav.Link className={props.active==='about'?'active':'inactive'} href="#features">About AKGEC</Nav.Link>
+      <Nav.Link className={props.active==='call'?'active':'inactive'} href="#features">Call for Paper</Nav.Link>
+      <Nav.Link className={props.active==='commitee'?'active':'inactive'} href="#features">COMMITTEE</Nav.Link>
+      <Nav.Link className={props.active==='keynote'?'active':'inactive'} href="#features">Keynote Speakers</Nav.Link>
+      <Nav.Link className={props.active==='registration'?'active':'inactive'} href="#features">Registration Fee</Nav.Link>
+      <Nav.Link className={props.active==='award'?'active':'inactive'} href="#features">Best Paper Award</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
