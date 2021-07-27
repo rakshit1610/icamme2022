@@ -1,0 +1,28 @@
+@media(max-width: 930px) {
+    .nav-options{
+        font-size: 12px !important;
+    }    
+}
+
+.eventDate{
+    font-size: 14px;
+    border: 2px solid #F3F3F3;
+}
+
+.bg-grey{
+    background: #1F1F1F;
+    color: #fff;
+}
+
+@media(max-width: 870px) {
+    .name-heading{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .name-heading{
+        font-size: 14px;
+    }
+}
