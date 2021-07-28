@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
@@ -19,7 +19,7 @@ function Navigationbar(props) {
       <Nav.Link className={props.active==='home'?'active':'inactive'}><Link to='/' className={props.active==='home'?'activeLink':'inactiveLink'}>Home</Link></Nav.Link>
       <Nav.Link className={props.active==='about'?'active':'inactive'}><Link to='/about' className={props.active==='about'?'activeLink':'inactiveLink'}>About AKGEC</Link></Nav.Link>
       <Nav.Link className={props.active==='call'?'active':'inactive'}><Link to='/call-for-paper' className={props.active==='call'?'activeLink':'inactiveLink'}>Call for Paper</Link></Nav.Link>
-      <Nav.Link className={props.active==='commitee'?'active':'inactive'}><Link to='/' className={props.active==='commitee'?'activeLink':'inactiveLink'}>COMMITTEE</Link></Nav.Link>
+      <Nav.Link className={props.active==='committee'?'active':'inactive'}><Link to='/committee' className={props.active==='committee'?'activeLink':'inactiveLink'}>COMMITTEE</Link></Nav.Link>
       <Nav.Link className={props.active==='keynote'?'active':'inactive'}><Link to='/' className={props.active==='keynote'?'activeLink':'inactiveLink'}>Keynote Speakers</Link></Nav.Link>
       <Nav.Link className={props.active==='registration'?'active':'inactive'}><Link to='/' className={props.active==='registration'?'activeLink':'inactiveLink'}>Registration Fee</Link></Nav.Link>
       <Nav.Link className={props.active==='award'?'active':'inactive'}><Link to='/' className={props.active==='award'?'activeLink':'inactiveLink'}>Best Paper Award</Link></Nav.Link>
