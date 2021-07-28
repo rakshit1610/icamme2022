@@ -14,9 +14,30 @@
     color: #fff;
 }
 
+
+.inactive{
+    color:white !important;
+}
+
+.active{
+    color:#65B0F6 !important;
+}
+
 @media(max-width: 870px) {
     .name-heading{
         font-size: 16px;
+    }
+}
+
+@media(min-width: 768px) {
+    .active{
+        border-bottom: 2px solid #65B0F6 !important;
+    }
+    .active:hover{
+        background: #404040 !important;
+    }
+    .inactive:hover{
+        background: #404040 !important;
     }
 }
 
