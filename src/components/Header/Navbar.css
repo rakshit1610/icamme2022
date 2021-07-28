@@ -15,12 +15,14 @@
 }
 
 
-.inactive{
+.inactiveLink{
     color:white !important;
+    text-decoration:none;
 }
 
-.active{
+.activeLink{
     color:#65B0F6 !important;
+    text-decoration:none;
 }
 
 @media(max-width: 870px) {
