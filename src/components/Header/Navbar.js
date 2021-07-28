@@ -20,8 +20,8 @@ function Navigationbar(props) {
       <Nav.Link className={props.active==='about'?'active':'inactive'}><Link to='/about' className={props.active==='about'?'activeLink':'inactiveLink'}>About AKGEC</Link></Nav.Link>
       <Nav.Link className={props.active==='call'?'active':'inactive'}><Link to='/call-for-paper' className={props.active==='call'?'activeLink':'inactiveLink'}>Call for Paper</Link></Nav.Link>
       <Nav.Link className={props.active==='commitee'?'active':'inactive'}><Link to='/' className={props.active==='commitee'?'activeLink':'inactiveLink'}>COMMITTEE</Link></Nav.Link>
-      <Nav.Link className={props.active==='keynote'?'active':'inactive'}><Link to='/' className={props.active==='keynote'?'activeLink':'inactiveLink'}>Keynote Speakers</Link></Nav.Link>
-      <Nav.Link className={props.active==='registration'?'active':'inactive'}><Link to='/' className={props.active==='registration'?'activeLink':'inactiveLink'}>Registration Fee</Link></Nav.Link>
+      <Nav.Link className={props.active==='keynote'?'active':'inactive'}><Link to='/keynote-speakers' className={props.active==='keynote'?'activeLink':'inactiveLink'}>Keynote Speakers</Link></Nav.Link>
+      <Nav.Link className={props.active==='registration'?'active':'inactive'}><Link to='/registration' className={props.active==='registration'?'activeLink':'inactiveLink'}>Registration Fee</Link></Nav.Link>
       <Nav.Link className={props.active==='award'?'active':'inactive'}><Link to='/' className={props.active==='award'?'activeLink':'inactiveLink'}>Best Paper Award</Link></Nav.Link>
 
     </Nav>

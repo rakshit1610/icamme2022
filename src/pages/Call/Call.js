@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/Header'
 
 function Call() {
@@ -83,12 +84,20 @@ function Call() {
         <div className='image4 me-3 mb-3'></div>
       </div>
       </div>
-    <div className="container mt-5 mb-5">
+      <div className="register-cntnr" >
+    <p>Are you ready to be a part of next generation and focused on all promising areas of Materials and Mechanical Engineering</p>
+    <a href="https://forms.gle/nhvrFS3ikega6fru5" >
+    <button type="button" className="register-btn" >Register Now</button>
+    </a> 
+</div>
+    <div className="container my-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>PUBLICATION</h4>
       <p>All accepted and presented articles after peer review process will be published in a SCOPUS indexed Journal.<br/><br/>
 
 Refer to the conference website for further details and updates.</p>
       </div>
+      <br /> <br/>
+      <Footer />
     </>
   );
 }

@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+@media only screen and (max-width:786px) {
+  * {
+    font-size: 95%;
+  }
+}

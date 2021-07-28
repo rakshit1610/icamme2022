@@ -1,13 +1,25 @@
 .carousel-img {
-    width: 78vw !important;
+    width: 70vw !important;
     height: 25rem !important;
-    padding: 0;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 1rem;
+    padding-top: 0.5rem !important;
+
+}
+
+
+
+
+.slide-selected {
+    margin: 1rem !important;
 }
 
 @media only screen and (max-width: 768px) {
     .carousel-img {
         height: 16rem !important;
     }
+
 }
 
 @media only screen and (max-width: 480px) {

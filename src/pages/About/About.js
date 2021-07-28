@@ -1,10 +1,13 @@
 import React from 'react'
+import AboutCarousel from '../../components/carousel/AboutCarousel';
+import Footer from '../../components/footer/Footer';
 import Header from '../../components/Header/Header'
 
 function About() {
   return (
     <>
     <Header active='about'/>
+    <AboutCarousel />
     <div className="container mt-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>ABOUT COLLEGE</h4>
       <p>Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad is affiliated to Dr. A.P.J. Abdul Kalam Technical University, Lucknow, and is approved by the All India Council for Technical Education. The college was established in 1998 and offers B. Tech Courses in ten disciplines of Engineering. The college also offers M. Tech in Computer Science & Engineering, Electronics & Communication Engineering, Electrical and Electronics Engineering and Mechanical Engineering. The college strives for excellence and has been consistently maintaining excellent academic results and placements. The college has the distinction of being the first and only college in UP to receive the Academic Excellence Award for the Best Engineering College in UPTU from H.E. the Governor of UP for two successive years. It is a matter of pride for the College to maintain a superlative overall academic performance over the years.<br/><br/>
@@ -30,6 +33,7 @@ The college has established the Big Data Centre of Excellence, Software Developm
 In addition, AKGEC has established IDEA Lab (Innovation, Development of Entrepreneurship and Application Lab) in the year 2017. The basic objective of IDEA Lab is to be a establishing technical business incubator for entrepreneurship development and innovation, which enables establishing new enterprises, creating new job positions, as well as developing new IDEAs and technologies. The Business Incubator Centre has the tools, expertise, mentors and experience to help early age start-ups and ideas. IDEA Lab is developed to support every small or medium size business idea, innovation, entrepreneurship and start-ups in the college.<br/>
 </p>
       </div>
+      <Footer />
     </>
   );
 }
