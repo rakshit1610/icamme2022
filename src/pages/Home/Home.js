@@ -1,4 +1,6 @@
 import React from 'react'
+import ImgCarousel from '../../components/carousel/Carousel'
+import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/Header'
 import './Home.css'
 import image1 from '../../assets/image1.png'
@@ -25,6 +27,10 @@ function Home() {
         <div className='image4 me-3 mb-3'></div>
       </div>
       </div>
+  
+  <ImgCarousel />
+    <Footer />
+
     </>
   );
 }
