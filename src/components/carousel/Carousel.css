@@ -1,8 +1,8 @@
 .carousel-img {
     width: 78vw !important;
     height: 25rem !important;
-    object-fit: cover;
-    object-position: 50% 50%;
+    /* object-fit: cover;
+    object-position: 50% 50%; */
     border-radius: 1rem;
     padding-top: 0.5rem !important;
 
