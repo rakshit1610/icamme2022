@@ -5,7 +5,7 @@ import './Navbar.css'
 import {Link} from 'react-router-dom'
 
 function Navigationbar(props) {
-  console.log(props.active)
+  // console.log(props.active)
   return (
       <>
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" className='px-3'>
