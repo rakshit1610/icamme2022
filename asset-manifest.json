@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/icamme2022/static/css/main.c763565c.chunk.css",
-    "main.js": "/icamme2022/static/js/main.a02dc452.chunk.js",
-    "main.js.map": "/icamme2022/static/js/main.a02dc452.chunk.js.map",
+    "main.js": "/icamme2022/static/js/main.c15e0fcb.chunk.js",
+    "main.js.map": "/icamme2022/static/js/main.c15e0fcb.chunk.js.map",
     "runtime-main.js": "/icamme2022/static/js/runtime-main.bff8f2ee.js",
     "runtime-main.js.map": "/icamme2022/static/js/runtime-main.bff8f2ee.js.map",
     "static/css/2.92aace85.chunk.css": "/icamme2022/static/css/2.92aace85.chunk.css",
@@ -49,6 +49,6 @@
     "static/css/2.92aace85.chunk.css",
     "static/js/2.815b26c4.chunk.js",
     "static/css/main.c763565c.chunk.css",
-    "static/js/main.a02dc452.chunk.js"
+    "static/js/main.c15e0fcb.chunk.js"
   ]
 }
