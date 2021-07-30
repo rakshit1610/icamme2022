@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
 import HomeCarousel from '../../components/carousel/HomeCarousel'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/Header'
+import Popup from '../../components/popup/Popup'
 import './Home.css'
 
 
 function Home() {
+
   return (
     <>
     <Header active='home'/>
@@ -27,6 +29,8 @@ function Home() {
       </div>
   
     <Footer />
+
+
 
     </>
   );
