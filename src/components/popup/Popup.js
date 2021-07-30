@@ -9,8 +9,7 @@ function Popup(props) {
         {...props}
         backdrop="static"
         aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
+        centered>
         <Modal.Body>
           <div className="d-flex justify-content-end" >
             <CloseIcon style={{cursor:"pointer", color:"#1F1F1F", transform: "scale(1.5)"}} onClick={props.onHide} />
