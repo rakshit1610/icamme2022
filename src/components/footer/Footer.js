@@ -1,5 +1,6 @@
 import "./Footer.css"
 import {  MailOutline, Call, LocationOn } from "@material-ui/icons";
+import {ReactComponent as SIlogo} from '../../assets/silogo.svg';
 
 const Footer = () => {
     return(
@@ -20,7 +21,9 @@ Ghaziabad - 201009 </p>
         </div>
 
       <hr />
-      <div className="Footer-Bottom">designed and developed by: Software Incubator</div>
+      <div className='d-flex align-items-center justify-content-center'>
+        DESIGNED & DEVELOPED BY : <SIlogo className="silogo" /> <a href="https://silive.in"  rel="noreferrer" className="si" target="_blank">SOFTWARE INCUBATOR</a>
+        </div>
     </div>
     )
 }
