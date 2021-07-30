@@ -1,18 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
+import Popup from '../popup/Popup'
 
 function Navigationbar(props) {
-  // console.log(props.active)
+  const [modalShow, setModalShow] = useState(false);
   return (
       <>
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" className='px-3'>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <div className='d-flex d-md-none'>
   <div className='text-white p-1 me-4' style={{fontSize: "12px", border:'1px solid white'}}>Date&nbsp;:&nbsp;18&nbsp;-&nbsp;19&nbsp;Feb’&nbsp;2022</div>
-  <NotificationsIcon className='m-0 p-0' style={{color:"white"}}/>
+  <NotificationsIcon onClick={() => setModalShow(true)} className='m-0 p-0' style={{color:"white"}}/>
   </div>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="d-flex justify-content-around w-100 nav-options">
@@ -27,7 +28,12 @@ function Navigationbar(props) {
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-  
+
+<Popup
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+
   </>
   );
 }
