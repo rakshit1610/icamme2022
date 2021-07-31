@@ -27,7 +27,7 @@
     margin-right: 0.5rem;
 }
 
-.Footer-Bottom {
+.footer-bottom {
     width: 100%;
     padding: 1rem 0rem;
     text-transform: uppercase;
@@ -36,6 +36,21 @@
 
 hr {
     margin: 0% !important;
+}
+
+.si {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.si:hover {
+    color: #3f95ea;
+}
+
+
+.silogo {
+    height: 1.1rem;
+    margin-left: 0.6rem;
 }
 
 @media only screen and (max-width:480px) {
@@ -48,19 +63,12 @@ hr {
         padding: 1rem;
     }
 
-    .Footer-Bottom {
+    .footer-bottom {
         padding: 0.5rem 1rem;
         font-size: 0.6rem;
     }
+
+    .silogo {
+        height: 1rem;
+    }
 }
-
-.si{
-    text-decoration: none !important;
-    color: #fff;
-}
-
-
-.silogo{
-    height: 18px;
-}
-

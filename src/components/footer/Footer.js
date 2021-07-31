@@ -21,8 +21,8 @@ Ghaziabad - 201009 </p>
         </div>
 
       <hr />
-      <div className='d-flex align-items-center justify-content-center'>
-        DESIGNED & DEVELOPED BY : <SIlogo className="silogo" /> <a href="https://silive.in"  rel="noreferrer" className="si" target="_blank">SOFTWARE INCUBATOR</a>
+      <div className='d-flex align-items-center justify-content-center footer-bottom'>
+        DESIGNED &amp; DEVELOPED BY : <SIlogo className="silogo" /> <a href="https://silive.in"  rel="noreferrer" className="si" target="_blank">SOFTWARE INCUBATOR</a>
         </div>
     </div>
     )
