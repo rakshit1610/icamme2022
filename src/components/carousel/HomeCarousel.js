@@ -11,7 +11,7 @@ import img6 from "../../assets/carousel/img6.png";
 const HomeCarousel = () => {
     return(
         <>
-        <Carousel itemsToShow={1} autoPlay={true} centerMode={true} emulateTouch={true} showThumbs={false} infiniteLoop={true} showStatus={false} showIndicators={false} >
+        <Carousel itemsToShow={1} autoPlay={true} centerMode={true} emulateTouch={true} showThumbs={false} infiniteLoop={true} showStatus={false} >
          
          <img src={img1} className="carousel-img" alt="carousel-img" /> 
          <img src={img2} className="carousel-img" alt="carousel-img" /> 

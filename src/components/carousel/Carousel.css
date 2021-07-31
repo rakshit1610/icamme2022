@@ -1,9 +1,6 @@
 .carousel-img {
     width: auto !important;
     height: 20rem !important;
-    object-fit: cover;
-    object-position: 50% 50%;
-    border-radius: 1rem;
     padding-top: 0.5rem !important;
 
 }
@@ -20,6 +17,7 @@
 
 @media only screen and (max-width: 480px) {
     .carousel-img {
+        width: 78vw !important;
         height: 12rem !important;
     }
 }

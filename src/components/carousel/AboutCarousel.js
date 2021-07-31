@@ -18,7 +18,7 @@ import image12 from "../../assets/about/image12.png";
 const AboutCarousel = () => {
     return(
         <>
-        <Carousel itemsToShow={1} autoPlay={true} centerMode={true} emulateTouch={true} showThumbs={false} infiniteLoop={true} showStatus={false} showIndicators={false} >
+        <Carousel itemsToShow={1} autoPlay={true} centerMode={true} emulateTouch={true} showThumbs={false} infiniteLoop={true} showStatus={false} >
         
         
         <img src={image1} className="carousel-img" alt="about-img" /> 
