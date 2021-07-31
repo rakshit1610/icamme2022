@@ -13,7 +13,7 @@ import Award from './pages/Award/Award';
 function App() {
   return (
     <div className="App">
-    <Router>
+    <Router basename="/">
     <Switch>
     <Route path='/' exact component={Home} />
     <Route path='/about' component={About} />
@@ -22,7 +22,6 @@ function App() {
     <Route path="/registration" component={Registration} />
     <Route path='/committee' component={Committee} />
     <Route path='/award' component={Award} />
-
     </Switch>
     </Router>
     </div>

@@ -3,60 +3,9 @@
     box-sizing: border-box;
 }
 
-.image1{
-    background-image: url('../../assets/image1.png');
-    height:273px;
-    background-repeat: no-repeat;
-    min-width: 205px;
-    background-size: cover;    
-    min-width: 410px;
-}
-
-.image2{
-    background-image: url('../../assets/image2.png');
-    height:273px;
-    background-repeat: no-repeat;
-    min-width: 205px;
-    background-size: cover;    
-    min-width: 410px;
-
-
-}
-
-.image3{
-    background-image: url('../../assets/image3.png');
-    background-repeat: no-repeat;
-    height:273px;
-    min-width: 410px;
-    background-size: cover;    
-
-}
-
-.image4{
-    background-image: url('../../assets/image4.png');
-    height:273px;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    min-width: 410px;
-
-}
-
-@media(max-width: 990px) {
-    .image1, .image2, .image3, .image4{
-        height: 205px;
-        min-width: 307px;
-    }
-}
-
-@media(max-width: 768px) {
-    .image1, .image2, .image3, .image4{
-        height: 164px;
-        min-width: 246px;
-    }
-}
 
 @media(max-width: 576px) {
-    .image1, .image2, .image3, .image4{
+    .flexdivs{
         height: 205px;
         width: 307px;
         background-repeat: no-repeat;

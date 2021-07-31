@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
 import HomeCarousel from '../../components/carousel/HomeCarousel'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/Header'
 import './Home.css'
+import image1 from '../../assets/image1.png'
+import image2 from '../../assets/image2.png'
+import image3 from '../../assets/image3.png'
+import image4 from '../../assets/image4.png'
 
 
 function Home() {
+
   return (
     <>
     <Header active='home'/>
@@ -17,16 +22,20 @@ function Home() {
     <div className="container mt-5 mb-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>GLIMPSES OF PREVIOUS CONFERENCE</h4>
       <div className='d-flex flex-column flex-sm-row flexbox'>
-        <div className='image1 me-3 mb-3'></div>
+        {/* <div className='image1 me-3 mb-3'></div>
         <div className='image2 me-3 mb-3'></div>
-      </div>
-      <div className='d-flex flex-column flex-sm-row flexbox'>
         <div className='image3 me-3 mb-3'></div>
-        <div className='image4 me-3 mb-3'></div>
+        <div className='image4 me-3 mb-3'></div> */}
+        <div className='col-3 me-2 flexdivs'><img src={image1} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 me-2 flexdivs'><img src={image2} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 me-2 flexdivs'><img src={image3} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 me-2 flexdivs'><img src={image4} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
       </div>
       </div>
   
     <Footer />
+
+
 
     </>
   );
