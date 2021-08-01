@@ -26,10 +26,10 @@ function Home() {
         <div className='image2 me-3 mb-3'></div>
         <div className='image3 me-3 mb-3'></div>
         <div className='image4 me-3 mb-3'></div> */}
-        <div className='col-3 me-2 flexdivs'><img src={image1} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
-        <div className='col-3 me-2 flexdivs'><img src={image2} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
-        <div className='col-3 me-2 flexdivs'><img src={image3} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
-        <div className='col-3 me-2 flexdivs'><img src={image4} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 mb-2 pe-2 flexdivs'><img src={image1} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 mb-2 pe-2 flexdivs'><img src={image2} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 mb-2 pe-2 flexdivs'><img src={image3} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
+        <div className='col-3 mb-2 pe-2 flexdivs'><img src={image4} style={{maxHeight:"100%", maxWidth:"100%"}} /></div>
       </div>
       </div>
   
