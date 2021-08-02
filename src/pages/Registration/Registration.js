@@ -71,10 +71,6 @@ const Registration = () => {
                 <td>Ajay Kumar Garg Engineering College, Ghaziabad</td>
             </tr>
             <tr>
-                <td> Account Name </td> 
-                <td>Ajay Kumar Garg Engineering College, Ghaziabad</td>
-            </tr>
-            <tr>
                 <td> Account Number </td> 
                 <td>	508010250461</td>
             </tr>
