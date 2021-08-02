@@ -2,12 +2,11 @@ import Header from "../../components/Header/Header";
 import "./Keynote.css"
 import Footer from "../../components/footer/Footer"
 import img1 from "../../assets/keynote/img1.png"
-import img2 from "../../assets/keynote/img2.jpg"
+import img2 from "../../assets/keynote/img2.png"
 import img3 from "../../assets/keynote/img3.jpg"
 import img4 from "../../assets/keynote/img4.jpg"
 import img5 from "../../assets/keynote/img5.jpg"
 import img6 from "../../assets/keynote/img6.jpg"
-import img7 from "../../assets/keynote/img7.jpg"
 import img8 from "../../assets/keynote/img8.jpg"
 
 
@@ -43,8 +42,8 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Pulak Mohan Pandey</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical Engineering
-                Indian Institute of Technology
+                Department of Mechanical Engineering,
+                Indian Institute of Technology,
                 New Delhi, India                
                 Professor
             </p>
@@ -54,7 +53,7 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Akshay Dvivedi</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical and Industrial Engineering
+                Department of Mechanical and Industrial Engineering,
                 Indian Institute of Technology, Roorkee
                 India
 
@@ -68,8 +67,8 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Sachin Maheshwari</b><br/><br/>
                 Professor <br/><br/>
-                Division of Manufacturing Processes and Automation Engineering
-                Netaji Subhas University of Technology (NSUT) New Delhi
+                Division of Manufacturing Processes and Automation Engineering,
+                Netaji Subhas University of Technology (NSUT), New Delhi,
                 India
 
             </p>
@@ -79,30 +78,17 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Arshad Noor Siddiquee</b><br/><br/>
                 Professor <br/><br/>
-                Division of Manufacturing Processes and Automation Engineering
-                Jamia Millia Islamia 
-                New Delhi, India
+                Department of Mechanical Engineering, Jamia Millia Islamia, New Delhi, India
 
             </p>
         </div>
-        <div className="KN-container" >
-        <img src={img7} className="keynote-img" alt="keynote-img" />
-            <p className="KN-text">
-                <b>Dr. D.S. Nagesh</b><br/><br/>
-                Professor<br/><br/>
-                Department of Mechanical Engineering
-                Delhi Technological University
-                New Delhi 
-                India
 
-            </p>
-        </div>
         <div className="KN-container" >
         <img src={img8} className="keynote-img" alt="keynote-img" />
             <p className="KN-text">
                 <b>Dr. Mukul Shukla</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical Engineering
+                Department of Mechanical Engineering,
                 Motilal Nehru National Institute of Technology, Allahabad
                 Uttar Pradesh, India 
                     

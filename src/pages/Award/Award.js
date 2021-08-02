@@ -34,7 +34,7 @@ const Award = () => {
   </tbody>
 </Table>
 </div>
-<Banner />
+
 <Footer />
         </>
     )

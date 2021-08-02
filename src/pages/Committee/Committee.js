@@ -19,7 +19,7 @@ function Committee() {
                 Prof. G.P Dubey<br/>
                 Prof. I. P. Sharma<br/>
                 Prof. P. K. Chopra<br/>
-                Prof. Bhupal Singh<br/>
+                Prof. Hemant Ahuja<br/>
                 Prof. Sunita Yadav<br/>
                 Prof. Anu Chaudhary<br/>
                 Prof. S.L. Kapoor<br/>
