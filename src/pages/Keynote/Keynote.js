@@ -34,7 +34,7 @@ const Keynote = () => {
                 <b>Dr. Xizhang Chen</b><br/><br/>
                 Professor<br/><br/>
                 College of Mechanical and Electrical Engineering,
-                Wenzhou University, China.
+                Wenzhou University, China
             </p>
         </div>
         <div className="KN-container" >
@@ -45,7 +45,7 @@ const Keynote = () => {
                 Department of Mechanical Engineering,
                 Indian Institute of Technology,
                 New Delhi, India                
-                Professor
+                
             </p>
         </div>
         <div className="KN-container" >
