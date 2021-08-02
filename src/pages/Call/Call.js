@@ -78,7 +78,7 @@ function Call() {
     <div className="container mt-5 mb-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>Important Dates</h4>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Full Paper Submission Deadline : 1 Nov’ 2021 </p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Full Paper Submission Deadline : 15 Nov’ 2021 </p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Paper Acceptance : 1 Dec’ 2021</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Registration Deadline : 15 Dec’2021</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Submission of Camera Ready Paper : 15 Jan’ 2021 </p></div>

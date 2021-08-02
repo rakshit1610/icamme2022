@@ -24,7 +24,7 @@ function Committee() {
                 Prof. Anu Chaudhary<br/>
                 Prof. S.L. Kapoor<br/>
                 Prof. Rakesh Srivastava<br/>
-                Prof. Asiv Shah, Head<br/><br/>
+                Prof. Asiv Shah<br/><br/>
 
                 <b>CONVENER</b><br/>
                 Prof. Devendra Singh<br/><br/>
@@ -52,6 +52,7 @@ function Committee() {
 
                 <b>TECHNICAL PROGRAM AND WEBSITE MANAGEMENT COMMITTEE</b><br/>
                 Mr. Vivek Kumar Pansari<br/>
+                Mr. Ajay Kumar Dubey<br/>
                 Mr. Ankur Tyagi<br/>
                 Mr. Mayank Kumar Tiwari<br/>
                 Mr. Anshul Kumar Panchbhaiya<br/>
