@@ -35,7 +35,7 @@ const Keynote = () => {
                 <b>Dr. Xizhang Chen</b><br/><br/>
                 Professor<br/><br/>
                 College of Mechanical and Electrical Engineering,
-                Wenzhou University, China.
+                Wenzhou University, China
             </p>
         </div>
         <div className="KN-container" >
@@ -43,10 +43,10 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Pulak Mohan Pandey</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical Engineering
-                Indian Institute of Technology
-                New Delhi, India                
-                Professor
+                Department of Mechanical Engineering,
+                Indian Institute of Technology,
+                New Delhi, India           
+                
             </p>
         </div>
         <div className="KN-container" >
@@ -54,8 +54,8 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Akshay Dvivedi</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical and Industrial Engineering
-                Indian Institute of Technology, Roorkee
+                Department of Mechanical and Industrial Engineering,
+                Indian Institute of Technology, Roorkee,
                 India
 
             </p>
@@ -68,8 +68,8 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Sachin Maheshwari</b><br/><br/>
                 Professor <br/><br/>
-                Division of Manufacturing Processes and Automation Engineering
-                Netaji Subhas University of Technology (NSUT) New Delhi
+                Division of Manufacturing Processes and Automation Engineering,
+                Netaji Subhas University of Technology (NSUT), New Delhi,
                 India
 
             </p>
@@ -79,13 +79,13 @@ const Keynote = () => {
             <p className="KN-text">
                 <b>Dr. Arshad Noor Siddiquee</b><br/><br/>
                 Professor <br/><br/>
-                Division of Manufacturing Processes and Automation Engineering
-                Jamia Millia Islamia 
+                Department of Mechanical Engineering,
+                Jamia Millia Islamia ,
                 New Delhi, India
 
             </p>
         </div>
-        <div className="KN-container" >
+        {/* <div className="KN-container" >
         <img src={img7} className="keynote-img" alt="keynote-img" />
             <p className="KN-text">
                 <b>Dr. D.S. Nagesh</b><br/><br/>
@@ -96,13 +96,13 @@ const Keynote = () => {
                 India
 
             </p>
-        </div>
+        </div> */}
         <div className="KN-container" >
         <img src={img8} className="keynote-img" alt="keynote-img" />
             <p className="KN-text">
                 <b>Dr. Mukul Shukla</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical Engineering
+                Department of Mechanical Engineering,
                 Motilal Nehru National Institute of Technology, Allahabad
                 Uttar Pradesh, India 
                     

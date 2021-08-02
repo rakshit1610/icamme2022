@@ -16,14 +16,14 @@ const Registration = () => {
     <tr>
       
       <th>Participant</th>
-      <th>Form, India(INR)</th>
-      <th>Form, Abroad(USD)</th>
+      <th>From, India(INR)</th>
+      <th>From, Abroad(USD)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       
-      <td>Students (UG/PG)	Rs. 3000	$ 125</td>
+      <td>Students (UG/PG)</td>
       <td>Rs. 3000</td>
       <td>$ 125</td>
       
@@ -31,7 +31,7 @@ const Registration = () => {
 
     </tr>
     <tr>
-    <td>PhD Scholar	Rs. 4000	$ 175</td>
+    <td>PhD Scholar</td>
       
       <td>Rs. 4000</td>
       <td>$ 175</td>

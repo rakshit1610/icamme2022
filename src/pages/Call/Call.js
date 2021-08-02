@@ -1,7 +1,9 @@
 import React from 'react'
-import Banner from '../../components/banner/Banner'
+import Banner from '../../components/banner/CallBanner'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/Header'
+import Guidelines from '../../assets/documents/Guidelines.docx'
+import Template from '../../assets/documents/Template.docx'
 import './Call.css'
 
 function Call() {
@@ -86,7 +88,16 @@ function Call() {
 
       </div>
       </div>
-     <Banner />
+
+    <div className="container mt-5 mb-5">
+      <h4 className='d-inline-block p-2 px-3 headings mb-4'>Relevant Links</h4>
+      <div className='row'>
+      <a href="https://forms.gle/TwFEkHamZ77QiH1R7" target="_blank" className='col-12 mb-2 col-md-6' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'>Paper Submission Dashboard</p></a>
+      <a href={Guidelines} target="_blank" className='col-12 mb-2 col-md-6' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'>Paper Submission Guidelines</p></a>
+      <a href={Template} target="_blank" className='col-12 mb-2 col-md-6' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'>Template</p></a>
+      </div>
+      </div>
+     {/* <Banner /> */}
     <div className="container my-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>PUBLICATION</h4>
       <p>All accepted and presented articles after peer review process will be published in a SCOPUS indexed Journal.<br/><br/>
