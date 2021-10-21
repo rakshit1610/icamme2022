@@ -1,18 +1,18 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import "./Carousel.css";
-import image1 from "../../assets/about/image1.png";
+import image1 from "../../assets/about/image1.jpg";
 import image2 from "../../assets/about/image2.png";
-import image3 from "../../assets/about/image3.png";
+import image3 from "../../assets/about/image3.jpg";
 import image4 from "../../assets/about/image4.png";
 import image5 from "../../assets/about/image5.png";
-import image6 from "../../assets/about/image6.png";
+import image6 from "../../assets/about/image6.jpg";
 import image7 from "../../assets/about/image7.png";
 import image8 from "../../assets/about/image8.png";
 import image9 from "../../assets/about/image9.png";
 import image10 from "../../assets/about/image10.png";
 import image11 from "../../assets/about/image11.png";
-import image12 from "../../assets/about/image12.png";
+import image12 from "../../assets/about/image12.jpg";
 
 
 const AboutCarousel = () => {

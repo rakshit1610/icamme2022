@@ -19,7 +19,7 @@ function Call() {
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Multifunctional Smart Materials (e.g. Shape Memory Alloys Piezoelectric Materials etc.)</p></div>
-      <div className='col-12 mb-2 col-md-6' height="100"><p className='itemboxes m-0 p-2'>• Bio Materials</p></div>
+      <div className='col-12 mb-2 col-md-6 h-auto'><p className='itemboxes m-0 p-2 h-100'>• Bio Materials  </p> </div>
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Composites</p></div>
