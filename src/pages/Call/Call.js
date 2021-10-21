@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../../components/banner/CallBanner'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/Header'
-import Guidelines from '../../assets/documents/Guidelines.docx'
+import Guidelines from '../../assets/documents/Guidelines.pdf'
 import Template from '../../assets/documents/Template.docx'
 import './Call.css'
 
@@ -14,65 +14,65 @@ function Call() {
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>The contributing papers are invited to the following broad categories of</h4>
       {/*  */}
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Engineering Materials and Technology</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Functional Materials</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Engineering Materials and Materials Technology</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Functional, functionally graded</p></div>
+      </div>
+      <div className='row'>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Multifunctional Smart Materials (e.g. Shape Memory Alloys Piezoelectric Materials etc.)</p></div>
+      <div className='col-12 mb-2 col-md-6' height="100"><p className='itemboxes m-0 p-2'>• Bio Materials</p></div>
+      </div>
+      <div className='row'>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Composites</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Materials Characterization</p></div>
+      </div>
+      <div className='row'>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Fatigue and creep</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Tribology</p></div>
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Advance Manufacturing Processes</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanics of Materials and Solid Mechanics</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Advanced Welding Processes</p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Fatigue</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanisms and Machines</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Additive Manufacturing</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• 3D, 4D Printing</p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Dynamics and Control</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Combustion Engines</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Rapid Manufacturing Technologies and Prototyping</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Sustainable and Green Manufacturing </p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanics</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechatronics</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Computer-Based Manufacturing Technologies </p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Industrial Engineering and Operation Research Reliability</p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Vehicle Engineering</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Micro- and Nano- Mechanical Systems</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Polymers and processing of polymers</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Metallurgy of ferrous and non-ferrous materials Surfaces and Interfaces</p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Fluid Mechanics</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Fuel and Combustion</p></div>
-      </div>
-      <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Energy Harvesting</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Acoustics, Vibration and Noise</p></div>
-      </div>
-      <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Thermodynamics, Heat and Mass Transfer</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Composites</p></div>
-      </div>
-      <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Systems and Design</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Metallurgy</p></div>
-      </div>
-      <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Stress Analysis, Structures</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Metrology</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Stress Analysis, Structures</p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Surfaces and Interfaces</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Robotics and Automation</p></div>
-      </div>
-      <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Tribology</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Smart Structures</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanics of Materials and Solid Mechanics Mechatronics</p></div>
       </div>
       <div className='row'>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Robotics and Automation</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Micro-and Nano-Mechanical Systems</p></div>
+      </div>
+      <div className='row'>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanisms and Machines</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Dynamics and Control</p></div>
+      </div>
+      {/* <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Turbomachinery</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Energy Harvesting</p></div>
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Industrial Engineering and Operation Research </p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Hydraulics and Pneumatics</p></div>
-      </div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Hydraulics and Pneumatics</p></div> */}
+      {/* </div> */}
       
       
       {/*  */}
@@ -80,10 +80,10 @@ function Call() {
     <div className="container mt-5 mb-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>Important Dates</h4>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Full Paper Submission Deadline : 15 Nov’ 2021 </p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Paper Acceptance : 1 Dec’ 2021</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Registration Deadline : 15 Dec’2021</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Submission of Camera Ready Paper : 15 Jan’ 2021 </p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Full Paper Submission Deadline : 25 Nov’ 2021 </p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Paper Acceptance : 10 Dec’ 2021</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Registration Deadline : 01 Feb’2021</p></div>
+      {/* <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Submission of Camera Ready Paper : 15 Jan’ 2021 </p></div> */}
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Conference Date : 18-19 Feb’2022 </p></div>
 
       </div>
@@ -100,9 +100,7 @@ function Call() {
      {/* <Banner /> */}
     <div className="container my-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>PUBLICATION</h4>
-      <p>All accepted and presented articles after peer review process will be published in a SCOPUS indexed Journal.<br/><br/>
-
-Refer to the conference website for further details and updates.</p>
+      <p>All accepted and presented articles after peer review process will be published in Materials Today: Proceedings (SCOPUS indexed).</p>
       </div>
       <br /> <br/>
       <Footer />

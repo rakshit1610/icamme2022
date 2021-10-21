@@ -8,8 +8,8 @@ import img4 from "../../assets/keynote/img4.jpg"
 import img5 from "../../assets/keynote/img5.jpg"
 import img6 from "../../assets/keynote/img6.jpg"
 import img8 from "../../assets/keynote/img8.jpg"
-
-
+import img9 from "../../assets/keynote/img9.jpg"
+import img10 from "../../assets/keynote/img10.jpg"
 
 const Keynote = () => {
     return(
@@ -37,17 +37,28 @@ const Keynote = () => {
                 Wenzhou University, China
             </p>
         </div>
+
         <div className="KN-container" >
-        <img src={img3} className="keynote-img" alt="keynote-img" />
+        <img src={img9} className="keynote-img" alt="keynote-img" />
             <p className="KN-text">
-                <b>Dr. Pulak Mohan Pandey</b><br/><br/>
+                <b>Dr. Gurel Cam</b><br/><br/>
                 Professor <br/><br/>
-                Department of Mechanical Engineering,
-                Indian Institute of Technology,
-                New Delhi, India                
-                
+                Department of Mechanical Engineering, Iskenderun Technical University, Turkey
+
             </p>
         </div>
+
+        
+        <div className="KN-container" >
+        <img src={img6} className="keynote-img" alt="keynote-img" />
+            <p className="KN-text">
+                <b>Dr. Arshad Noor Siddiquee</b><br/><br/>
+                Professor <br/><br/>
+                Department of Mechanical Engineering, Jamia Millia Islamia, New Delhi, India
+
+            </p>
+        </div>
+
         <div className="KN-container" >
         <img src={img4} className="keynote-img" alt="keynote-img" />
             <p className="KN-text">
@@ -73,13 +84,25 @@ const Keynote = () => {
 
             </p>
         </div>
-        <div className="KN-container" >
-        <img src={img6} className="keynote-img" alt="keynote-img" />
-            <p className="KN-text">
-                <b>Dr. Arshad Noor Siddiquee</b><br/><br/>
-                Professor <br/><br/>
-                Department of Mechanical Engineering, Jamia Millia Islamia, New Delhi, India
 
+        <div className="KN-container" >
+        <img src={img3} className="keynote-img" alt="keynote-img" />
+            <p className="KN-text">
+                <b>Dr. Pulak Mohan Pandey</b><br/><br/>
+                Director <br/><br/>
+Bundelkhand Institute of Engineering & Technology, Jhansi
+               
+                
+            </p>
+        </div>
+
+        <div className="KN-container" >
+        <img src={img10} className="keynote-img" alt="keynote-img" />
+            <p className="KN-text">
+                <b>Dr. Sameer Khandekar</b><br/><br/>
+                Professor and Head <br/><br/>
+                Department of Mechanical Engineering at IIT Kanpur
+                    
             </p>
         </div>
 

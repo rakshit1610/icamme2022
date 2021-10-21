@@ -16,9 +16,9 @@ function Committee() {
                 Dr. R. K. Agarwal<br/><br/>
 
                 <b>PATRONS</b><br/>
+                Prof. P. K. Chopra<br/>
                 Prof. G.P Dubey<br/>
                 Prof. I. P. Sharma<br/>
-                Prof. P. K. Chopra<br/>
                 Prof. Hemant Ahuja<br/>
                 Prof. Sunita Yadav<br/>
                 Prof. Anu Chaudhary<br/>
@@ -41,21 +41,21 @@ function Committee() {
 
                 <b>FINANCE COMMITEE</b><br/>
                 Prof. Devendra Singh<br/>
-                Prof. Pallab Biswas<br/>
+                Mr. Vivek Kumar Pansari<br/>
                 Mr. Jitendra Yadav<br/><br/>
 
                 <b>PUBLICITY COMMITTEE</b><br/>
-                Mr. Vivek Kumar Pansari<br/>
+                Prof. Pallab Biswas<br/>
                 Mr. H. S. Chaurasiya<br/>
                 Mr. Ankur Tyagi<br/>
                 Mr. Dilip Kumar<br/><br/>
 
                 <b>TECHNICAL PROGRAM AND WEBSITE MANAGEMENT COMMITTEE</b><br/>
-                Mr. Vivek Kumar Pansari<br/>
+                Mr. Nirmal Garg<br/>
                 Mr. Ajay Kumar Dubey<br/>
                 Mr. Ankur Tyagi<br/>
-                Mr. Mayank Kumar Tiwari<br/>
                 Mr. Anshul Kumar Panchbhaiya<br/>
+                Mr. Shubham Choudhary<br/>
               </p>
           </div>
           <div className='col-12 col-sm-6 col-md-4'>
@@ -92,13 +92,13 @@ function Committee() {
 
 3. Dr. Sachin Maheshwari, Professor, Division of Manufacturing Processes and Automation Engineering, Netaji Subhas University of Technology, New Delhi, India.<br/> <br/>
 
-4. Professor, Department of Mechanical Engineering, Jamia Millia Islamia, New Delhi, India.<br/> <br/>
+4. Dr. Arshad Noor Siddiquee, Professor, Department of Mechanical Engineering, Jamia Millia Islamia, New Delhi, India.<br/> <br/>
 
 5.Dr. Pulak Mohan Padey, Professor, Department of Mechanical Engineering, Indian Institute of Technology, Delhi, India<br/> <br/>
 
 6. Dr. Sunil Pandey, Professor, School of Engineering, Jawaharlal Nehru University, New Delhi, India. <br/> <br/>
 
-7. Dr. Sudipto Mukhergee, Professor, Department of Mechanical Engineering, Indian Institute of Technology, Delhi, India.<br/> <br/>
+7. Dr. Sudipto Mukherjee, Professor, Department of Mechanical Engineering, Indian Institute of Technology, Delhi, India.<br/> <br/>
 
 8. Dr. Akshay Dvivedi, Professor, Department of Mechanical and Industrial Engineering, Indian Institute of Technology, Roorkee, India.<br/> <br/>
 
