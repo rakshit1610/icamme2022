@@ -46,7 +46,7 @@ function Call() {
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Industrial Engineering and Operation Research Reliability</p></div>
       </div>
       <div className='row'>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Polymers and processing of polymers</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2 h-100'>• Polymers and processing of polymers</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Metallurgy of ferrous and non-ferrous materials Surfaces and Interfaces</p></div>
       </div>
       <div className='row'>
