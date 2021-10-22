@@ -74,6 +74,7 @@ function Committee() {
                 Mr. Ajay Kant Dubey<br/><br/>
 
                 <b>REGISTRATION COMMITTE</b><br/>
+                Mr. Vivek Kumar Pansari<br/>
                 Mr. Gajesh Kumar<br/>
                 Mr. Anshul Kumar Panchbhaiya<br/>
                 Mr. Amit Kumar Tripathi<br/>
