@@ -25,7 +25,7 @@ const Registration = () => {
       
       <td>Students (UG/PG)</td>
       <td>Rs. 3000</td>
-      <td>$ 125</td>
+      <td>$ 100</td>
       
       
 
@@ -34,7 +34,7 @@ const Registration = () => {
     <td>PhD Scholar</td>
       
       <td>Rs. 4000</td>
-      <td>$ 175</td>
+      <td>$ 125</td>
      
       
       
@@ -44,7 +44,7 @@ const Registration = () => {
     <td>Rs. 5000</td>
      
      
-      <td>$ 200</td>
+      <td>$ 150</td>
       
     
 
@@ -53,14 +53,14 @@ const Registration = () => {
     <tr>
     <td>Industry and Research Professionals </td>
     <td>Rs. 6000</td>
-    <td>$ 230</td>
+    <td>$ 175</td>
     </tr>
 
-    <tr>
+    {/* <tr>
     <td>Conference Attendees/ Co-Authors/ Listener </td>
     <td>Rs. 1000</td>
     <td>$ 60</td>
-    </tr>
+    </tr> */}
   </tbody>
 </Table>
         <h4 className='d-inline-block p-2  px-3  headings mt-5 mb-4'>Bank Details</h4>

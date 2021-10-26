@@ -73,7 +73,7 @@ function Committee() {
                 Dr. Tarun Bhardwaj<br/>
                 Mr. Ajay Kant Dubey<br/><br/>
 
-                <b>REGISTRATION COMMITTE</b><br/>
+                <b>REGISTRATION COMMITTEE</b><br/>
                 Mr. Vivek Kumar Pansari<br/>
                 Mr. Gajesh Kumar<br/>
                 Mr. Anshul Kumar Panchbhaiya<br/>

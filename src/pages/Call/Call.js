@@ -15,7 +15,7 @@ function Call() {
       {/*  */}
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Engineering Materials and Materials Technology</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Functional, functionally graded</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Functional and functionally graded materials</p></div>
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Multifunctional Smart Materials (e.g. Shape Memory Alloys Piezoelectric Materials etc.)</p></div>
@@ -55,7 +55,7 @@ function Call() {
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Smart Structures</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanics of Materials and Solid Mechanics Mechatronics</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Mechanics of Materials and Solid Mechanics, Mechatronics</p></div>
       </div>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>• Robotics and Automation</p></div>
@@ -81,10 +81,10 @@ function Call() {
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>Important Dates</h4>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Full Paper Submission Deadline : 25 Nov’ 2021 </p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Paper Acceptance : 10 Dec’ 2021</p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Registration Deadline : 01 Feb’2021</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Shortlisted Papers : 10 Dec’ 2021</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Registration Deadline : 01 Feb’ 2022</p></div>
       {/* <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Submission of Camera Ready Paper : 15 Jan’ 2021 </p></div> */}
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Conference Date : 18-19 Feb’2022 </p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Conference Date : 18-19 Feb’ 2022 </p></div>
 
       </div>
       </div>
