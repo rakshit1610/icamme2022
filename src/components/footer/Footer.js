@@ -14,7 +14,7 @@ const Footer = () => {
 Delhi-Hapur Bypass Road,
 P.O. Adhyatmik Nagar,
 Ghaziabad - 201009 </p>  
-          <p><MailOutline /> icamme2022@akgec.ac.in</p>  
+          <p><MailOutline /> icamme@akgec.ac.in</p>  
            <p><Call />  +91-9540935533, +91-9458582870</p> 
             
           
