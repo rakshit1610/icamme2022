@@ -81,7 +81,7 @@ function Call() {
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>Important Dates</h4>
       <div className='row'>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Full Paper Submission Deadline : <span style={{"text-decoration": "line-through"}}>25 Nov’ 2021</span> 31 Dec' 2021 </p></div>
-      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Shortlisted Papers : 01 Jan’ 2021</p></div>
+      <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Notification of Shortlisted Papers : 01 Jan’ 2022</p></div>
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Registration Deadline : 01 Feb’ 2022</p></div>
       {/* <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Submission of Camera Ready Paper : 15 Jan’ 2021 </p></div> */}
       <div className='col-12 mb-2 col-md-6'><p className='itemboxes m-0 p-2'>Conference Date : 18-19 Feb’ 2022 </p></div>
