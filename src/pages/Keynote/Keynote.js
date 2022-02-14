@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header";
 import "./Keynote.css"
 import Footer from "../../components/footer/Footer"
+import Player from "../../components/player/Player"
 import img1 from "../../assets/keynote/img1.png"
 import img2 from "../../assets/keynote/img2.png"
 import img3 from "../../assets/keynote/img3.jpg"
@@ -11,10 +12,12 @@ import img8 from "../../assets/keynote/img8.jpg"
 import img9 from "../../assets/keynote/img9.jpg"
 import img10 from "../../assets/keynote/img10.jpg"
 
+
 const Keynote = () => {
     return(
         <>
         <Header active="keynote" />
+
         <div className="container my-5">
       <h4 className='d-inline-block p-2 px-3 headings mb-4'>KEYNOTE SPEAKERS</h4>
       <div className="KN-grid"  >
@@ -121,6 +124,12 @@ Bundelkhand Institute of Engineering & Technology, Jhansi
 
       </div>
     </div>
+
+    <div className="container my-5">
+            <h4 className='d-inline-block p-2 px-3 headings mb-5'>KEYNOTE PRESENTATION</h4>
+            <Player />
+        </div>
+
     <Footer />
 
         </>
