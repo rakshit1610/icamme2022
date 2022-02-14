@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import './Player.css'
-import video from '../../assets/abc.mp4'
+// import video from 'https://gdurl.com/BeYg'
 
     const ResponsivePlayer = () => {
       return (
         <div className='player-wrapper'>
           <ReactPlayer
             className='react-player'
-            url={video}
+            url='https://gdurl.com/BeYg'
             width='100%'
             height='100%'
             controls={true}
