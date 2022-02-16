@@ -125,7 +125,7 @@ Bundelkhand Institute of Engineering & Technology, Jhansi
       </div>
     </div>
 
-    <div className="container my-5" id="keynote">
+    <div className="container my-5" id="presentation">
             <h4 className='d-inline-block p-2 px-3 headings mb-5'>KEYNOTE PRESENTATION</h4>
             <Player />
         </div>

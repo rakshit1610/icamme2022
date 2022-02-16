@@ -4,6 +4,7 @@ import Schedule from '../../assets/notices/Schedule.pdf'
 import Technical from '../../assets/notices/Technical.pdf'
 import Header from '../../components/Header/Header'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 const Notices = () => {
     return (
@@ -17,7 +18,7 @@ const Notices = () => {
       <a href={Flyer} target="_blank" className='col-12 mb-2' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'>ICAMME-2022 Flyer</p></a>
       <a href={Schedule} target="_blank" className='col-12 mb-2' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'>ICAMME-2022 Schedule</p></a>
       <a href={Technical} target="_blank" className='col-12 mb-2' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'>Technical Program Schedule</p></a>
-      <Link to='keynote-speakers' className='col-12 mb-2' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'> Keynote Speech of Prof. Gurel Cam </p></Link>
+      <HashLink to='keynote-speakers#presentation' className='col-12 mb-2' style={{textDecoration:'none'}}><p className='itemboxes m-0 p-2'> Keynote Speech of Prof. Gurel Cam </p></HashLink>
       </div>
       </div>
         
