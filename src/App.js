@@ -9,6 +9,7 @@ import Keynote from './pages/Keynote/Keynote';
 import Registration from './pages/Registration/Registration';
 import Committee from './pages/Committee/Committee'
 import Award from './pages/Award/Award';
+import Notices from './pages/Notiices/Notices';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Route path="/registration" component={Registration} />
     <Route path='/committee' component={Committee} />
     <Route path='/award' component={Award} />
+    <Route path='/notice' component={Notices} />
     </Switch>
     </Router>
     </div>

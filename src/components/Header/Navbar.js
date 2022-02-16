@@ -24,6 +24,7 @@ function Navigationbar(props) {
     <Link to='/keynote-speakers' className={props.active==='keynote'?'p-2 active activeLink d-flex align-items-center':'p-2 inactiveLink inactive d-flex align-items-center'}>Keynote Speakers</Link>
     <Link to='/registration' className={props.active==='registration'?'p-2 active activeLink d-flex align-items-center':'p-2 inactiveLink inactive d-flex align-items-center'}>Registration Fee</Link>
     <Link to='/award' className={props.active==='award'?'p-2 active activeLink d-flex align-items-center':'p-2 inactiveLink inactive d-flex align-items-center'}>Best Paper Award</Link>
+    <Link to='/notice' className={props.active==='notice'?'p-2 active activeLink d-flex align-items-center':'p-2 inactiveLink inactive d-flex align-items-center'}>Notices</Link>
 
     </Nav>
   </Navbar.Collapse>
